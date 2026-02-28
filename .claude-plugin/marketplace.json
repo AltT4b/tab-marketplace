@@ -8,5 +8,16 @@
     "description": "AltTab's curated Claude Code plugins marketplace",
     "version": "0.1.0"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "tab",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AltT4b/Tab.git"
+      },
+      "description": "A framework for defining Claude-based AI agents as file-system primitives.",
+      "version": "1.0.0",
+      "strict": true
+    }
+  ]
 }
