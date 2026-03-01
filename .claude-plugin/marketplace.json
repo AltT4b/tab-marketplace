@@ -18,6 +18,16 @@
       "description": "A framework for defining Claude-based AI agents as file-system primitives.",
       "version": "1.0.0",
       "strict": true
+    },
+    {
+      "name": "personal-assistant-builder",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AltT4b/personal-assistant-builder.git"
+      },
+      "description": "A Claude Code plugin for building personal assistants — combines agents, skills, and rules into coherent personalities with their own conventions, workflows, and identity.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
