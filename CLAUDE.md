@@ -30,7 +30,7 @@ tab-marketplace/
 
 Users install this marketplace into Claude Code with:
 ```
-/plugin marketplace add alttab-macbook/tab-marketplace
+/plugin marketplace add AltT4b/tab-marketplace
 ```
 
 Each plugin lives in `plugins/<plugin-name>/` as a self-contained project. The `marketplace.json` file serves as the index that lists and references all available plugins.
@@ -56,3 +56,22 @@ When editing `.claude-plugin/marketplace.json`, ensure:
 - Each plugin is self-contained — all of its code, docs, and config live within its own `plugins/<name>/` directory.
 - Each plugin should have its own README.md describing what it does and how to use it.
 - Each plugin manages its own versioning independently.
+
+## Commit Patterns
+
+Use [Conventional Commits](https://www.conventionalcommits.org/):
+
+| Pattern | When to use | Example |
+|---------|-------------|---------|
+| `feat: <msg>` | Adding a new plugin or feature | `feat: add code-review plugin` |
+| `fix: <msg>` | Bug fixes in plugins or the marketplace index | `fix: correct source path for tab plugin` |
+| `docs: <msg>` | Documentation-only changes | `docs: update installation instructions` |
+| `chore: <msg>` | Maintenance, config, or tooling | `chore: update marketplace metadata version` |
+| `refactor: <msg>` | Restructuring without behavior change | `refactor: reorganize tab plugin directory layout` |
+
+Use scope for plugin-specific changes:
+
+```
+feat(tab): add researcher specialist
+fix(tab): correct memory file path
+```
