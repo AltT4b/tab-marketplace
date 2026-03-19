@@ -11,10 +11,7 @@
   "plugins": [
     {
       "name": "tab",
-      "source": {
-        "source": "local",
-        "path": "./plugins/tab"
-      },
+      "source": "./plugins/tab",
       "description": "Tab, a thinking partner defined entirely in markdown. No compiled code, no dependencies — just text files that shape how Claude talks, thinks, and works with you.",
       "version": "0.0.1",
       "strict": true
