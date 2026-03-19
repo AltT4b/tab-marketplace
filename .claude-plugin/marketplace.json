@@ -12,10 +12,10 @@
     {
       "name": "tab",
       "source": {
-        "source": "url",
-        "url": "https://github.com/AltT4b/Tab.git"
+        "source": "local",
+        "path": "./plugins/tab"
       },
-      "description": "Tab, a Claude-based personal assistant.",
+      "description": "Tab, a thinking partner defined entirely in markdown. No compiled code, no dependencies — just text files that shape how Claude talks, thinks, and works with you.",
       "version": "0.0.1",
       "strict": true
     }
